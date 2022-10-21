@@ -40,7 +40,7 @@ imagePullSecrets: []
 
 controller:
   # Specifies whether a deployment should be created
-  create: true
+  create: false
   # Number for the log level verbosity
   logLevel: 2
   # If set, add pv/pvc metadata to plugin create requests as parameters.
